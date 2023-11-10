@@ -5,15 +5,12 @@
 
 number=
 
-
-
-
-x=7
+x=154
 
 if [ "$x" -eq "5" ]
 then
 echo "The Number is 5"
-elif [ "$x" -gt "7" ]
+elif [ "$x" -gt "5" ]
 then
 echo "The number is greater than 5"
 else [ "$x" -lt "5" ]

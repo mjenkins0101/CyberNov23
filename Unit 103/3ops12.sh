@@ -4,10 +4,10 @@ echo "How is your day today? (Enter 'good' or 'bad'):"
 read response
 
 case "$response" in
-  "good")
+  "good"|"Good"|"GOOD")
     echo "That's great to hear! Keep it up!"
     ;;
-  "bad")
+  "bad"|"Bad"|"BAD")
     echo "I'm sorry to hear that. Tomorrow is a new day!"
     ;;
   *)
